@@ -1,0 +1,5 @@
+project: savantenvs/readstat
+target: fuzz-format-dta
+cmds:
+  - cmd: /mayhem/fuzz_format_dta
+    libfuzzer: true

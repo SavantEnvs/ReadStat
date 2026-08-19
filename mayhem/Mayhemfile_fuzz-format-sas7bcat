@@ -1,0 +1,5 @@
+project: savantenvs/readstat
+target: fuzz-format-sas7bcat
+cmds:
+  - cmd: /mayhem/fuzz_format_sas7bcat
+    libfuzzer: true

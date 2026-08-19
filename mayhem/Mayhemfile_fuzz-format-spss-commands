@@ -1,0 +1,6 @@
+project: savantenvs/readstat
+target: fuzz-format-spss-commands
+cmds:
+  - cmd: /mayhem/fuzz_format_spss_commands
+    libfuzzer: true
+    dictionary: /mayhem/fuzz/dict/fuzz_format_spss_commands.dict
