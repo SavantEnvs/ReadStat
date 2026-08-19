@@ -1,0 +1,5 @@
+project: savantenvs/readstat
+target: fuzz-format-xport
+cmds:
+  - cmd: /mayhem/fuzz_format_xport
+    libfuzzer: true

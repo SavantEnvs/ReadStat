@@ -1,0 +1,5 @@
+project: savantenvs/readstat
+target: fuzz_compression_sav
+cmds:
+  - cmd: /mayhem/fuzz_compression_sav
+    libfuzzer: true
